@@ -16,26 +16,47 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"/>
 
-<!--        <TextView-->
-<!--            android:id="@+id/textView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@id/imageView"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginTop="6dp"-->
-<!--            android:text="Kościerzyna:"-->
-<!--            android:textSize="11sp" />-->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="Ustron:"
+            android:textSize="11sp" />
 
-<!--        <ImageView-->
-<!--            android:id="@+id/imageView2"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@id/textView"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginTop="4dp"-->
-<!--            android:src="@android:drawable/ic_menu_camera"-->
-<!--            android:adjustViewBounds="true"-->
-<!--            android:scaleType="fitCenter"/>-->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="Ladek Zdroj:"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
 
     </RelativeLayout>
 </ScrollView>
